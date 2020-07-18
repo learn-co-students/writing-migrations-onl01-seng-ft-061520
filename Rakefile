@@ -1,3 +1,7 @@
+require_relative './config/environment'
+require 'sinatra/activerecord/rake'
+
+
 require 'active_record'
 include ActiveRecord::Tasks
 
